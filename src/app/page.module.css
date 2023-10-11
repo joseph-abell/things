@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  list-style: none;
+}
+
+.main h2 {
+  margin: 0;
+  padding: 0 0 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 20px;
+  width: 208px;
+}
+
+.label {
+  width: 200px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+}
+
+.inputText {
+  width: 187px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.inputSubmit {
+  width: 208px;
+  padding: 5px;
+  margin-top: 5px;
+}
